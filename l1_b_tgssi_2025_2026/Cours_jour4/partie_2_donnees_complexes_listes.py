@@ -73,7 +73,8 @@ print("je trie ===>", notes.sort())
 # 26 Aout 2026
 
 notes = [15, 7, 9, 12, 13, 6, 8, 9, 14, [14, 15, 10, [14, 0, 0.5]], 14, 12]
-
+# Liste vide
+note = []
 notes_copie = notes # Mauvaise copie
 
 notes_copie_2 = notes.copy() # une meilleure copie
@@ -88,8 +89,8 @@ print("La liste notes", notes)
 # ==== Attention à la méthode copy() quand nous avons une liste avec des 
 # listes (Listes profondes)
 
-
 notes = [15, 7, 9, 12, 13, 6, 8, 9, 14, 14, 12]
+notes[0] = 19
 # sorted() ==> structure : sorted(nom_variable)
 # sort() ==> structure : nom_variable.sort()
 
