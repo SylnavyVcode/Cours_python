@@ -1,0 +1,14 @@
+2026-09-10;Brazzaville;panne;haute;resolu;45
+2026-09-10;Pointe-Noire;maintenance;basse;resolu;20
+2026-09-10;Brazzaville;panne;critique;resolu;15
+2026-09-11;Dolisie;installation;moyenne;resolu;90
+2026-09-11;Brazzaville;panne;haute;en_cours;0
+LIGNE_CORROMPUE_SANS_POINT_VIRGULE
+2026-09-11;Pointe-Noire;panne;haute;resolu;abc
+2026-09-12;Brazzaville;maintenance;basse;resolu;30
+2026-09-12;Pointe-Noire;panne;critique;resolu;10
+2026-09-12;Dolisie;panne;haute;resolu;
+2026-09-13;Brazzaville;installation;moyenne;resolu;60
+2026-09-13;Pointe-Noire;maintenance;basse;resolu;25
+2026-09-13;Dolisie;panne;critique;en_cours;0
+2026-09-14        ;Brazzaville;panne;haute;resolu;35

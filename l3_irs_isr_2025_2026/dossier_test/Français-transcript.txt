@@ -1,0 +1,43 @@
+[00:00] Dans les réseaux modernes,
+
+[00:01] Les ordinateurs hôtes peuvent agir en tant que client, serveur ou les deux à la fois.
+
+[00:05] Le logiciel installé sur l'ordinateur
+
+[00:07] détermine le rôle joué par l'ordinateur.
+
+[00:10] Les serveurs sont des hôtes sur lesquels des logiciels sont installés
+
+[00:13] qui leur permettent de fournir des informations
+
+[00:16] à d'autres hôtes du réseau,
+
+[00:17] comme les e-mails ou les pages Web.
+
+[00:20] Chaque service serveur nécessite un logiciel serveur distinct.
+
+[00:23] Les clients sont des ordinateurs hôtes sur lesquels des logiciels sont installés
+
+[00:26] qui permet à l'hôte d'effectuer une demande
+
+[00:29] et afficher les informations obtenues à partir du serveur.
+
+[00:32] Un exemple de logiciel client est un navigateur Web
+
+[00:35] Tels que Chrome, Edge, Safari ou Firefox.
+
+[00:39] En utilisant un logiciel de navigation Web,
+
+[00:41] Le client peut demander la page Web au serveur.
+
+[00:45] Le serveur Web répondra avec la page Web.
+
+[00:48] Un autre exemple est le courrier électronique.
+
+[00:50] Les clients utilisent un logiciel client de messagerie
+
+[00:53] Tel que Microsoft Outlook pour accéder au courrier électronique sur le serveur.
+
+[00:57] Les clients peuvent envoyer
+
+[00:58] recevoir des messages électroniques à partir du serveur de messagerie.
