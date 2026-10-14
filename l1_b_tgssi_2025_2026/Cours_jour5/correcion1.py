@@ -50,7 +50,7 @@ print(15*"*")
 import time
 for gravite, service_actif, en_maintenance in alertes:
     # etape 1 : c'est le timeur
-    time.sleep(4)
+    time.sleep(2)
     
     # etape 2 : c'est l'affichage des element avec le contenu
     print(f"gravité : {gravite}, service_actif: {service_actif}, maintenance : {en_maintenance}")
@@ -65,6 +65,16 @@ for gravite, service_actif, en_maintenance in alertes:
             # question 2 : test de maintenance (True / False)
             if en_maintenance:
                 print(f"Alerte (gravite=<{gravite}>) -> suspendue (maintenance en cours)")
+            else:
+                if not service_actif:
+                    priorite = "Critique hors service"
+                else:
+                    if gravite >= 5:
+                        priorite = "CRITIQUE"
+                    elif gravite >=3:
+                        priorite = "MAJEURE"
+                    else:
+                        priorite = "Mineur"
         case int():
             print(f"Alerte ignoree : gravite <{gravite}> hors plage (1-5)")
         case str():
