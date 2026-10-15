@@ -22,26 +22,26 @@ class Voiture:
     def __str__(self):
         return f"La voiture {self.marque} {self.modele} de couleur {self.couleur}."
 
-# voiture_1 = Voiture("Peugeot", "208", 2020, "Rouge")
-# print(Voiture.Nombre_voiture)
-# voiture_2 = Voiture("Renault", "Clio", 2021, "Bleu")
-# print(Voiture.Nombre_voiture)
-# # # print(dir(voiture_1))
-# # print(voiture_1.annee)
-# # print(voiture_1)
+voiture_1 = Voiture(marque_voiture="Peugeot", modele_voiture="208", annee_voiture=2020, couleur_voiture="Rouge")
+print(Voiture.Nombre_voiture)
+voiture_2 = Voiture("Renault", "Clio", 2021, "Bleu")
+print(Voiture.Nombre_voiture)
+# # print(dir(voiture_1))
+# print(voiture_1.annee)
+# print(voiture_1)
 
-# # print(voiture_2)
-# # voiture_3 = ""
-# # print(isinstance(voiture_2, Voiture))  # True
+# print(voiture_2)
+# voiture_3 = ""
+# print(isinstance(voiture_2, Voiture))  # True
 
-# # print(type(voiture_1))
+# print(type(voiture_1))
 
 
-# print(Voiture.Nombre_voiture)
-# print(voiture_2.marque)
+print(Voiture.Nombre_voiture)
+print(voiture_2.marque)
 
-# print(voiture_1.Nombre_voiture)
-# print(voiture_2.Nombre_voiture)
+print(voiture_1.Nombre_voiture)
+print(voiture_2.Nombre_voiture)
 
 class Vehicule:
     
